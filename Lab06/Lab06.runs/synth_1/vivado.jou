@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Sun Jun  9 17:14:43 2024
-# Process ID: 12760
+# Start of session at: Tue Jun 11 17:40:23 2024
+# Process ID: 10308
 # Current directory: C:/Users/ahmed-farid/Desktop/DD1 Lab/DD1-Lab/Lab06/Lab06.runs/synth_1
-# Command line: vivado.exe -log RCA4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA4.tcl
-# Log file: C:/Users/ahmed-farid/Desktop/DD1 Lab/DD1-Lab/Lab06/Lab06.runs/synth_1/RCA4.vds
+# Command line: vivado.exe -log CSA8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSA8.tcl
+# Log file: C:/Users/ahmed-farid/Desktop/DD1 Lab/DD1-Lab/Lab06/Lab06.runs/synth_1/CSA8.vds
 # Journal file: C:/Users/ahmed-farid/Desktop/DD1 Lab/DD1-Lab/Lab06/Lab06.runs/synth_1\vivado.jou
 # Running On: CSE-P07-2165-51, OS: Windows, CPU Frequency: 3492 MHz, CPU Physical cores: 6, Host memory: 34278 MB
 #-----------------------------------------------------------
-source RCA4.tcl -notrace
+source CSA8.tcl -notrace

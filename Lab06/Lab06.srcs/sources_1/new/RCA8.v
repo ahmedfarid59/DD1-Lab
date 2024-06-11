@@ -27,6 +27,8 @@ module RCA8(
     genvar i;
     generate
         full_adder_1 f1(a[0],b[0], cin , s[0], w[0]);
-        for (i =1;i<8
-        full_adder_1 q(a[i],b[i] 
+        for (i =1;i<7; i=i+1)
+        full_adder_1 f(a[i],b[i],w[i-1],s[i],w[i]);
+        full_adder_1 h(a[7],b[7],w[6],s[7],cout);
+        endgenerate
 endmodule
