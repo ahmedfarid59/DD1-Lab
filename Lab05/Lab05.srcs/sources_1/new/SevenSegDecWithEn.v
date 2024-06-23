@@ -21,17 +21,21 @@
 
 
 module SevenSegDecWithEn(
-    input en,
+    input [1:0] en,
     input [3:0] num,
     output reg [6:0] segments,
     output reg [3:0] anode_active
     );
     
      always @(* ) begin
-     if(en ) 
+     if(en==0 ) 
      anode_active =4'b1110 ;
+     else if(en==1)
+     anode_active = 4'b1101 ;
+     else if (en==2)
+     anode_active = 4'b1011;
      else
-     anode_active = 4'b1111 ;
+     anode_active =4'b0111;
      case (num)
      0: segments = 7'b0000001;
      1: segments = 7'b0110000;
